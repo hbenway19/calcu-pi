@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCF5DE941CBEC7E9003983A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5DE931CBEC7E9003983A7 /* AppDelegate.swift */; };
+		DCF5DE961CBEC7E9003983A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5DE951CBEC7E9003983A7 /* ViewController.swift */; };
+		DCF5DE991CBEC7E9003983A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF5DE971CBEC7E9003983A7 /* Main.storyboard */; };
+		DCF5DE9C1CBEC7E9003983A7 /* GService_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCF5DE9A1CBEC7E9003983A7 /* GService_Calculator.xcdatamodeld */; };
+		DCF5DE9E1CBEC7E9003983A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF5DE9D1CBEC7E9003983A7 /* Assets.xcassets */; };
+		DCF5DEA11CBEC7EA003983A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF5DE9F1CBEC7E9003983A7 /* LaunchScreen.storyboard */; };
+		DCF5DEAC1CBEC7EA003983A7 /* GService_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5DEAB1CBEC7EA003983A7 /* GService_CalculatorTests.swift */; };
+		DCF5DEB71CBEC7EA003983A7 /* GService_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5DEB61CBEC7EA003983A7 /* GService_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCF5DEA81CBEC7EA003983A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCF5DE881CBEC7E8003983A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF5DE8F1CBEC7E9003983A7;
+			remoteInfo = "GService Calculator";
+		};
+		DCF5DEB31CBEC7EA003983A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCF5DE881CBEC7E8003983A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF5DE8F1CBEC7E9003983A7;
+			remoteInfo = "GService Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCF5DE901CBEC7E9003983A7 /* GService Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GService Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF5DE931CBEC7E9003983A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCF5DE951CBEC7E9003983A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCF5DE981CBEC7E9003983A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCF5DE9B1CBEC7E9003983A7 /* GService_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GService_Calculator.xcdatamodel; sourceTree = "<group>"; };
+		DCF5DE9D1CBEC7E9003983A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCF5DEA01CBEC7EA003983A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCF5DEA21CBEC7EA003983A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF5DEA71CBEC7EA003983A7 /* GService CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GService CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF5DEAB1CBEC7EA003983A7 /* GService_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GService_CalculatorTests.swift; sourceTree = "<group>"; };
+		DCF5DEAD1CBEC7EA003983A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF5DEB21CBEC7EA003983A7 /* GService CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GService CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF5DEB61CBEC7EA003983A7 /* GService_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GService_CalculatorUITests.swift; sourceTree = "<group>"; };
+		DCF5DEB81CBEC7EA003983A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCF5DE8D1CBEC7E9003983A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF5DEA41CBEC7EA003983A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF5DEAF1CBEC7EA003983A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCF5DE871CBEC7E8003983A7 = {
+			isa = PBXGroup;
+			children = (
+				DCF5DE921CBEC7E9003983A7 /* GService Calculator */,
+				DCF5DEAA1CBEC7EA003983A7 /* GService CalculatorTests */,
+				DCF5DEB51CBEC7EA003983A7 /* GService CalculatorUITests */,
+				DCF5DE911CBEC7E9003983A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCF5DE911CBEC7E9003983A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCF5DE901CBEC7E9003983A7 /* GService Calculator.app */,
+				DCF5DEA71CBEC7EA003983A7 /* GService CalculatorTests.xctest */,
+				DCF5DEB21CBEC7EA003983A7 /* GService CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCF5DE921CBEC7E9003983A7 /* GService Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				DCF5DE931CBEC7E9003983A7 /* AppDelegate.swift */,
+				DCF5DE951CBEC7E9003983A7 /* ViewController.swift */,
+				DCF5DE971CBEC7E9003983A7 /* Main.storyboard */,
+				DCF5DE9D1CBEC7E9003983A7 /* Assets.xcassets */,
+				DCF5DE9F1CBEC7E9003983A7 /* LaunchScreen.storyboard */,
+				DCF5DEA21CBEC7EA003983A7 /* Info.plist */,
+				DCF5DE9A1CBEC7E9003983A7 /* GService_Calculator.xcdatamodeld */,
+			);
+			path = "GService Calculator";
+			sourceTree = "<group>";
+		};
+		DCF5DEAA1CBEC7EA003983A7 /* GService CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCF5DEAB1CBEC7EA003983A7 /* GService_CalculatorTests.swift */,
+				DCF5DEAD1CBEC7EA003983A7 /* Info.plist */,
+			);
+			path = "GService CalculatorTests";
+			sourceTree = "<group>";
+		};
+		DCF5DEB51CBEC7EA003983A7 /* GService CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCF5DEB61CBEC7EA003983A7 /* GService_CalculatorUITests.swift */,
+				DCF5DEB81CBEC7EA003983A7 /* Info.plist */,
+			);
+			path = "GService CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCF5DE8F1CBEC7E9003983A7 /* GService Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF5DEBB1CBEC7EA003983A7 /* Build configuration list for PBXNativeTarget "GService Calculator" */;
+			buildPhases = (
+				DCF5DE8C1CBEC7E9003983A7 /* Sources */,
+				DCF5DE8D1CBEC7E9003983A7 /* Frameworks */,
+				DCF5DE8E1CBEC7E9003983A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GService Calculator";
+			productName = "GService Calculator";
+			productReference = DCF5DE901CBEC7E9003983A7 /* GService Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCF5DEA61CBEC7EA003983A7 /* GService CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF5DEBE1CBEC7EA003983A7 /* Build configuration list for PBXNativeTarget "GService CalculatorTests" */;
+			buildPhases = (
+				DCF5DEA31CBEC7EA003983A7 /* Sources */,
+				DCF5DEA41CBEC7EA003983A7 /* Frameworks */,
+				DCF5DEA51CBEC7EA003983A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF5DEA91CBEC7EA003983A7 /* PBXTargetDependency */,
+			);
+			name = "GService CalculatorTests";
+			productName = "GService CalculatorTests";
+			productReference = DCF5DEA71CBEC7EA003983A7 /* GService CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCF5DEB11CBEC7EA003983A7 /* GService CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF5DEC11CBEC7EA003983A7 /* Build configuration list for PBXNativeTarget "GService CalculatorUITests" */;
+			buildPhases = (
+				DCF5DEAE1CBEC7EA003983A7 /* Sources */,
+				DCF5DEAF1CBEC7EA003983A7 /* Frameworks */,
+				DCF5DEB01CBEC7EA003983A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF5DEB41CBEC7EA003983A7 /* PBXTargetDependency */,
+			);
+			name = "GService CalculatorUITests";
+			productName = "GService CalculatorUITests";
+			productReference = DCF5DEB21CBEC7EA003983A7 /* GService CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCF5DE881CBEC7E8003983A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Garrett Machen";
+				TargetAttributes = {
+					DCF5DE8F1CBEC7E9003983A7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SGDZ68S7ED;
+					};
+					DCF5DEA61CBEC7EA003983A7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SGDZ68S7ED;
+						TestTargetID = DCF5DE8F1CBEC7E9003983A7;
+					};
+					DCF5DEB11CBEC7EA003983A7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SGDZ68S7ED;
+						TestTargetID = DCF5DE8F1CBEC7E9003983A7;
+					};
+				};
+			};
+			buildConfigurationList = DCF5DE8B1CBEC7E8003983A7 /* Build configuration list for PBXProject "GService Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCF5DE871CBEC7E8003983A7;
+			productRefGroup = DCF5DE911CBEC7E9003983A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCF5DE8F1CBEC7E9003983A7 /* GService Calculator */,
+				DCF5DEA61CBEC7EA003983A7 /* GService CalculatorTests */,
+				DCF5DEB11CBEC7EA003983A7 /* GService CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCF5DE8E1CBEC7E9003983A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF5DEA11CBEC7EA003983A7 /* LaunchScreen.storyboard in Resources */,
+				DCF5DE9E1CBEC7E9003983A7 /* Assets.xcassets in Resources */,
+				DCF5DE991CBEC7E9003983A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF5DEA51CBEC7EA003983A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF5DEB01CBEC7EA003983A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCF5DE8C1CBEC7E9003983A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF5DE961CBEC7E9003983A7 /* ViewController.swift in Sources */,
+				DCF5DE9C1CBEC7E9003983A7 /* GService_Calculator.xcdatamodeld in Sources */,
+				DCF5DE941CBEC7E9003983A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF5DEA31CBEC7EA003983A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF5DEAC1CBEC7EA003983A7 /* GService_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF5DEAE1CBEC7EA003983A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF5DEB71CBEC7EA003983A7 /* GService_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCF5DEA91CBEC7EA003983A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCF5DE8F1CBEC7E9003983A7 /* GService Calculator */;
+			targetProxy = DCF5DEA81CBEC7EA003983A7 /* PBXContainerItemProxy */;
+		};
+		DCF5DEB41CBEC7EA003983A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCF5DE8F1CBEC7E9003983A7 /* GService Calculator */;
+			targetProxy = DCF5DEB31CBEC7EA003983A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCF5DE971CBEC7E9003983A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF5DE981CBEC7E9003983A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCF5DE9F1CBEC7E9003983A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF5DEA01CBEC7EA003983A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCF5DEB91CBEC7EA003983A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCF5DEBA1CBEC7EA003983A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCF5DEBC1CBEC7EA003983A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GService Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coding.GService-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCF5DEBD1CBEC7EA003983A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GService Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coding.GService-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCF5DEBF1CBEC7EA003983A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GService CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coding.GService-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GService Calculator.app/GService Calculator";
+			};
+			name = Debug;
+		};
+		DCF5DEC01CBEC7EA003983A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GService CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coding.GService-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GService Calculator.app/GService Calculator";
+			};
+			name = Release;
+		};
+		DCF5DEC21CBEC7EA003983A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GService CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coding.GService-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GService Calculator";
+			};
+			name = Debug;
+		};
+		DCF5DEC31CBEC7EA003983A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GService CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coding.GService-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GService Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCF5DE8B1CBEC7E8003983A7 /* Build configuration list for PBXProject "GService Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF5DEB91CBEC7EA003983A7 /* Debug */,
+				DCF5DEBA1CBEC7EA003983A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF5DEBB1CBEC7EA003983A7 /* Build configuration list for PBXNativeTarget "GService Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF5DEBC1CBEC7EA003983A7 /* Debug */,
+				DCF5DEBD1CBEC7EA003983A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCF5DEBE1CBEC7EA003983A7 /* Build configuration list for PBXNativeTarget "GService CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF5DEBF1CBEC7EA003983A7 /* Debug */,
+				DCF5DEC01CBEC7EA003983A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCF5DEC11CBEC7EA003983A7 /* Build configuration list for PBXNativeTarget "GService CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF5DEC21CBEC7EA003983A7 /* Debug */,
+				DCF5DEC31CBEC7EA003983A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCF5DE9A1CBEC7E9003983A7 /* GService_Calculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCF5DE9B1CBEC7E9003983A7 /* GService_Calculator.xcdatamodel */,
+			);
+			currentVersion = DCF5DE9B1CBEC7E9003983A7 /* GService_Calculator.xcdatamodel */;
+			path = GService_Calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCF5DE881CBEC7E8003983A7 /* Project object */;
+}

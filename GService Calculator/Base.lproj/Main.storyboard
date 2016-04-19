@@ -36,7 +36,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aT7-zI-Ayn">
                                 <rect key="frame" x="270" y="245" width="30" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="X"/>
+                                <state key="normal" title="x"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VM6-bt-Q3c">
                                 <rect key="frame" x="33" y="306" width="30" height="40"/>

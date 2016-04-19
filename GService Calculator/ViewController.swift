@@ -9,17 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    @IBOutlet var display : UILabel!
+    
+    var userisenteringnumbers = false
+    
+    @IBAction func enterNumber(sender: UIButton) {
+        let digit = sender.currentTitle!
+        if userisenteringnumbers {
+            display.text - digit
+        }
 }
 
+override func viewDidLoad() {
+    super.viewDidLoad()
+    // Do any additional setup after loading the view, typically from a nib.
+}
+
+override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
+}
+}

@@ -491,6 +491,7 @@
 				DCF5DEBD1CBEC7EA003983A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCF5DEBE1CBEC7EA003983A7 /* Build configuration list for PBXNativeTarget "GService CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +500,7 @@
 				DCF5DEC01CBEC7EA003983A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCF5DEC11CBEC7EA003983A7 /* Build configuration list for PBXNativeTarget "GService CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +509,7 @@
 				DCF5DEC31CBEC7EA003983A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBAction func enterNumber(sender: UIButton) {
         let digit = sender.currentTitle!
         if userisenteringnumbers {
-            display.text - digit
+            //display.text - digit
         }
 }
 

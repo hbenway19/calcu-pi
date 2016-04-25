@@ -30,16 +30,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var decibleButton: UIButton!
     @IBOutlet weak var equalButton: UIButton!
     
-    var userisenteringnumbers = false
     
-    @IBAction func enterNumber(sender: UIButton) {
-        _ = sender.currentTitle!
-        if userisenteringnumbers {
-           // display.text - digit
-        }
-}
-
-override func viewDidLoad() {
+    override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
 }

@@ -32,20 +32,14 @@ class ViewController: UIViewController {
     
     var userisenteringnumbers = false
     
-    @IBAction func enterNumber(sender: UIButton) {
-        _ = sender.currentTitle!
-        if userisenteringnumbers {
-           // display.text - digit
-        }
-}
+    }
 
-override func viewDidLoad() {
-    super.viewDidLoad()
+func viewDidLoad() {
+    viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
+func didReceiveMemoryWarning() {
+    didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
-}
 }

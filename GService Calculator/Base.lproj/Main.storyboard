@@ -163,6 +163,7 @@
                     <connections>
                         <outlet property="clearButton" destination="buX-v5-uQ8" id="hT2-7Z-mZ4"/>
                         <outlet property="decibleButton" destination="vsv-DT-pse" id="ZdH-Zy-PQg"/>
+                        <outlet property="display" destination="b9a-pB-RKr" id="QDy-8k-jxY"/>
                         <outlet property="divisonButton" destination="sd0-kh-Blf" id="qyz-2c-DUc"/>
                         <outlet property="eightButton" destination="9Oa-ph-tgm" id="lir-ZC-7Ci"/>
                         <outlet property="equalButton" destination="sl4-CG-eWh" id="aGy-u8-O9Z"/>

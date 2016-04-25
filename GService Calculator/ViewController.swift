@@ -30,7 +30,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var decibleButton: UIButton!
     @IBOutlet weak var equalButton: UIButton!
     
-    var userisenteringnumbers = false
     
     }
 

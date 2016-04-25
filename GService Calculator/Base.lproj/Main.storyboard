@@ -108,13 +108,6 @@
                                 <color key="tintColor" red="0.99604874849319458" green="0.9961664080619812" blue="0.99190789461135864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="%"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sl4-CG-eWh">
-                                <rect key="frame" x="231" y="438" width="67" height="56"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <color key="tintColor" red="1" green="0.0031205432023853064" blue="0.041518166661262512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="="/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O58-VE-7Of">
                                 <rect key="frame" x="162" y="264" width="67" height="56"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -157,12 +150,36 @@
                                 <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="AC"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sl4-CG-eWh">
+                                <rect key="frame" x="231" y="438" width="67" height="56"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="tintColor" red="1" green="0.0031205432023853064" blue="0.041518166661262512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="="/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.74327719211578369" green="0.11228778213262558" blue="0.085712619125843048" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="clearButton" destination="buX-v5-uQ8" id="hT2-7Z-mZ4"/>
+                        <outlet property="decibleButton" destination="vsv-DT-pse" id="ZdH-Zy-PQg"/>
+                        <outlet property="divisonButton" destination="sd0-kh-Blf" id="qyz-2c-DUc"/>
+                        <outlet property="eightButton" destination="9Oa-ph-tgm" id="lir-ZC-7Ci"/>
+                        <outlet property="equalButton" destination="sl4-CG-eWh" id="aGy-u8-O9Z"/>
+                        <outlet property="fiveButton" destination="Pdo-nv-fPw" id="3E8-Uh-pFo"/>
+                        <outlet property="fourButton" destination="VM6-bt-Q3c" id="vfH-sk-Gtu"/>
+                        <outlet property="multiplicationButton" destination="aT7-zI-Ayn" id="gou-Fd-zIV"/>
                         <outlet property="negitivePositiveButton" destination="LHK-C8-fZ4" id="DeZ-ux-6Rb"/>
+                        <outlet property="nineButton" destination="O58-VE-7Of" id="hOt-vM-8tn"/>
+                        <outlet property="oneButton" destination="7SL-Oc-vCA" id="QQu-Jw-AIN"/>
+                        <outlet property="percentButton" destination="LjJ-el-ory" id="dK6-a6-vQr"/>
+                        <outlet property="plusButton" destination="gKB-hN-CBO" id="PqR-Me-gbW"/>
+                        <outlet property="sevenButton" destination="kdc-GY-X4K" id="8uN-8T-T8v"/>
+                        <outlet property="sixButton" destination="H5z-Wk-XEQ" id="Kkb-Go-KJk"/>
+                        <outlet property="subtractionButton" destination="ZWa-6r-adn" id="ICh-eP-um2"/>
+                        <outlet property="threeButton" destination="gYl-3V-Yok" id="K1T-pU-I3d"/>
+                        <outlet property="twoButton" destination="W53-K8-bQ3" id="vod-CE-ZyB"/>
+                        <outlet property="zeroButton" destination="gRf-MV-uVQ" id="D4X-DM-oAN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

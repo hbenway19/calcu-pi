@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet var display : UILabel!
+    @IBOutlet weak var clearButton: UIButton!
+    @IBOutlet weak var negitivePositiveButton: UIButton!
     
     var userisenteringnumbers = false
     
     @IBAction func enterNumber(sender: UIButton) {
-        let digit = sender.currentTitle!
+        _ = sender.currentTitle!
         if userisenteringnumbers {
            // display.text - digit
         }

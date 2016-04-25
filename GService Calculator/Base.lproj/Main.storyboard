@@ -160,6 +160,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.74327719211578369" green="0.11228778213262558" blue="0.085712619125843048" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="clearButton" destination="buX-v5-uQ8" id="hT2-7Z-mZ4"/>
+                        <outlet property="negitivePositiveButton" destination="LHK-C8-fZ4" id="DeZ-ux-6Rb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

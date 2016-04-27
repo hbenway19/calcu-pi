@@ -30,16 +30,29 @@ class ViewController: UIViewController {
     @IBOutlet weak var decibleButton: UIButton!
     @IBOutlet weak var equalButton: UIButton!
     
+    var isTypingNumber = false
     
+    var secondNumber = 0
+    var operation = ""
+    
+    @IBAction func numberTapped(sender: AnyObject) {
+        var number = sender.currentTitle
+        
+        if isTypingNumber {
+            display.text = number
+        } else {
+            display.text = number
+            isTypingNumber = true
+        }
     }
-//hi
-
-func viewDidLoad() {
-    viewDidLoad()
+    
+    override func viewDidLoad() {
+    super.viewDidLoad()
+        var firstNumber = 0
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-func didReceiveMemoryWarning() {
-    didReceiveMemoryWarning()
+override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
 }

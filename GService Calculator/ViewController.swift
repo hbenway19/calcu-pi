@@ -29,7 +29,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var zeroButton: UIButton!
     @IBOutlet weak var decibleButton: UIButton!
     @IBOutlet weak var equalButton: UIButton!
-    
+   
+   let calculation = Numbers
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        display.text = calculation
+    }
     
     }
 

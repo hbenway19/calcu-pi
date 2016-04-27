@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var equalButton: UIButton!
     
     
-    }
+    } // hi there
 
 func viewDidLoad() {
     viewDidLoad()

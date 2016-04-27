@@ -35,22 +35,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         display.text = calculation
     }
-    
-    var secondNumber = 0
-    var operation = ""
-    
-    @IBAction func numberTapped(sender: AnyObject) {
-        var number = sender.currentTitle
-        
-        if isTypingNumber {
-            display.text = number
-        } else {
-            display.text = number
-            isTypingNumber = true
-        }
-    }
-
-
 func viewDidLoad() {
     viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.

@@ -29,26 +29,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var zeroButton: UIButton!
     @IBOutlet weak var decibleButton: UIButton!
     @IBOutlet weak var equalButton: UIButton!
-    
-    var isTypingNumber = false
-    
-    var secondNumber = 0
-    var operation = ""
-    
-    @IBAction func numberTapped(sender: AnyObject) {
-        var number = sender.currentTitle
-        
-        if isTypingNumber {
-            display.text = number
-        } else {
-            display.text = number
-            isTypingNumber = true
-        }
-    }
-    
+   
+   let calculation = Numbers
     override func viewDidLoad() {
-    super.viewDidLoad()
-        var firstNumber = 0
+        super.viewDidLoad()
+        display.text = calculation
+    }
+func viewDidLoad() {
+    viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
 }
 

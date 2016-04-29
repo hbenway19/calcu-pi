@@ -316,6 +316,7 @@
                         <outlet property="fourButton" destination="VM6-bt-Q3c" id="vfH-sk-Gtu"/>
                         <outlet property="multiplicationButton" destination="aT7-zI-Ayn" id="gou-Fd-zIV"/>
                         <outlet property="negitivePositiveButton" destination="LHK-C8-fZ4" id="DeZ-ux-6Rb"/>
+                        <outlet property="oneButton" destination="7SL-Oc-vCA" id="Ndm-IP-vXd"/>
                         <outlet property="percentButton" destination="LjJ-el-ory" id="dK6-a6-vQr"/>
                         <outlet property="plusButton" destination="gKB-hN-CBO" id="PqR-Me-gbW"/>
                         <outlet property="subtractionButton" destination="ZWa-6r-adn" id="ICh-eP-um2"/>

@@ -30,17 +30,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var decibleButton: UIButton!
     @IBOutlet weak var equalButton: UIButton!
    
-   let calculation = Numbers
+   let calculation = Numberss()
     override func viewDidLoad() {
         super.viewDidLoad()
-        display.text = calculation
+        //display.text = Numberss
     }
-func viewDidLoad() {
-    viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
 override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
+}
 }

@@ -10,27 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet var display : UILabel!
-    @IBOutlet weak var clearButton: UIButton!
-    @IBOutlet weak var negitivePositiveButton: UIButton!
-    @IBOutlet weak var percentButton: UIButton!
-    @IBOutlet weak var divisonButton: UIButton!
-    @IBOutlet weak var sevenButton: UIButton!
-    @IBOutlet weak var eightButton: UIButton!
-    @IBOutlet weak var nineButton: UIButton!
-    @IBOutlet weak var multiplicationButton: UIButton!
-    @IBOutlet weak var fourButton: UIButton!
-    @IBOutlet weak var fiveButton: UIButton!
-    @IBOutlet weak var sixButton: UIButton!
-    @IBOutlet weak var subtractionButton: UIButton!
-    @IBOutlet weak var oneButton: UIButton!
-    @IBOutlet weak var twoButton: UIButton!
-    @IBOutlet weak var threeButton: UIButton!
-    @IBOutlet weak var plusButton: UIButton!
-    @IBOutlet weak var zeroButton: UIButton!
-    @IBOutlet weak var decibleButton: UIButton!
-    @IBOutlet weak var equalButton: UIButton!
    
-   let calculation = Numberss()
+    
+   
+    
+    let calculation = Numberss()
     override func viewDidLoad() {
         super.viewDidLoad()
         //display.text = Numberss

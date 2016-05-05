@@ -15,6 +15,20 @@ class ViewController: UIViewController {
     
    
     
+    var secondNumber = 0
+    var operation = ""
+    
+    @IBAction func numberTapped(sender: AnyObject) {
+        var number = sender.currentTitle
+        
+        if isTypingNumber {
+            display.text = number
+        } else {
+            display.text = number
+            isTypingNumber = true
+        }
+    }
+    
 
    
     

@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     var secondNumber = 0
     var operation = ""
-    
+    var isTypingNumber = false
     @IBAction func numberTapped(sender: AnyObject) {
         var number = sender.currentTitle
         
